@@ -18,3 +18,4 @@ $router->get('/', function () use ($router) {
 });
 
 $router->post('/upload', 'CloudinaryController@upload');
+$router->post('/send', 'MailController@sendMail');
